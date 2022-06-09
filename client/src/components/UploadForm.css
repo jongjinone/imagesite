@@ -1,0 +1,46 @@
+.file-dropper{
+  border : 1px dashed black;
+  border-radius: 10px;
+  height: 200px;
+  width:50%; 
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position : relative;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.file-dropper:hover{
+  color: white;
+  background-color: grey;
+  transition: 0.1s;
+}
+
+.file-dropper input{
+  opacity : 0;
+  width:100%;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.subButton{
+  width: 20%;
+  height: 40px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
+
+.imgpre{
+  width:10%;
+  margin: 10px auto 10px auto;
+  display: block;
+  border-radius: 10px;
+}
+
+

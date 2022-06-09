@@ -1,0 +1,9 @@
+.title{
+    width: 100%;
+}
+
+.title h2{
+    width:fit-content;
+    margin:auto;
+    margin-bottom: 20px;
+}
